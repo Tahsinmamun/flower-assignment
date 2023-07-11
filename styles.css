@@ -62,7 +62,7 @@
 .img-1 {
     width: 635px;
     height: 800px;
-    text-align: center;
+    
 
 
 
@@ -257,4 +257,85 @@ margin-top: 10px;
 height: 420px;
 margin-right: 200px;
 
+}
+
+/* instagram part  */
+.instagram{
+    width: 600px;
+    height: 150px;
+    margin: auto;
+    margin-top: 130px;
+    
+    text-align: center;
+    
+
+}
+.instagram-title{
+    font-weight: 800;
+    font-size: 40px;
+    color: #272727;
+    margin-bottom: 10px;
+
+}
+.instagram-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+
+
+}
+
+/* flower pics styles */
+.flower-pic{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 240px;
+    align-items: center;
+    margin-right: 240px;
+    margin-top: 40px;
+
+}
+
+/* latest deal styles */
+
+.latest-deal{
+    background-image: url('./images/Rectangle\ 9.png');
+    margin-left: 270px;
+    margin-right: 170px;
+    height: 449px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+.latest-deal .latest-deal-form input[type="email"]{
+    width: 700px;
+height: 64px;
+font-size: 18px;
+padding-left: 10px;
+}
+.latest-deal-title{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.latest-deal-description{
+
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
 }
